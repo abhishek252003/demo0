@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="demo.js">
+    <title>Demo</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <h1 style="background-color:red ;color: white; text-align: center;">My first page </h1>
+    <p>hello this is <q>abhishek chaurasia</q> from <em>
+            chitkara university
+        </em></p>
+
+    <img src="https://www.gstatic.com/youtube/img/promos/growth/c78e9dad5696c3f60fd213145d543ef22ccca79f50d8a1f80833b9dc2bb89985_244x112.webp"
+        alt="relode this site" id="youtube">
+    <img src="https://www.gstatic.com/youtube/img/promos/growth/c78e9dad5696c3f60fd213145d543ef22ccca79f50d8a1f80833b9dc2bb89985_244x112.webp"
+        alt="relode this site">
+    <img src="https://www.gstatic.com/youtube/img/promos/growth/c78e9dad5696c3f60fd213145d543ef22ccca79f50d8a1f80833b9dc2bb89985_244x112.webp"
+        alt="relode this site">
+    <p>for more information clicke here : <a href="https://www.google.com " target=blank">click here for more </a>
+        <br>
+
+    <table border=" ">
+        <tr>
+            <td>Name</td>
+            <td>Employee ID</td>
+            <td>Gender</td>
+            <td>Contact</td>
+        </tr>
+        <tr>
+            <td>Meena Gupta</td>
+            <td>2210991168</td>
+            <td>femail</td>
+            <td>9876543210</td>
+        </tr>
+        <tr>
+            <td>Abhishek</td>
+            <td>manager</td>
+            <td>male</td>
+            <td>9120681935</td>
+        </tr>
+        <tr>
+            <td>aman</td>
+            <td>voice precident</td>
+            <td>male</td>
+            <td>9120585885</td>
+        </tr>
+    </table>
+    <br>
+
+    <video   autoplay  id="vid">
+        <source type="video/mp4" src="2024-01-02 12-06-16.mp4">
+    </video>
+
+    <form style="background-color: bisque; border: 2px solid rgba(221, 166, 64, 0.303); width:  300px;height: 265px; margin-left: 100px;border-radius: 10px 10px 10px; box-shadow: 8px 5px 0px 5px rgba(128, 128, 128, 0.448);">
+        <label>Enter name :</label>
+        <input type="text" placeholder="Name" id="name"><br>
+        <label>Enter last name:</label>
+        <input type="text" placeholder="Last name" id="lname"><br>
+        <label>Contact:</label>
+        <input type="text" placeholder="Phone no." id="Contact"><br>
+        <label>password</label>
+        <input type="password" placeholder="Password" id="pswd"><br>
+        <label for="Gender">Gender</label>
+        <input type="radio" value="male" id="male" name="Gender">
+        <label for="male">male</label>
+        <input type="radio" value="female" id="female" name="Gender">
+        <label for="female">female</label><br>
+       
+        <label for="country">Select Country</label>
+        <select id="country">
+            <option value="India">India</option>
+            <option value="usa">usa</option>
+            <option value="australia">australia</option>
+            <option value="pakistan">pakistan</option>
+            <option value="nepal">nepal</option>
+            <option value="bhutan">bhutan</option>
+            <option value="dubai">dubai</option>
+            <option value="new york">new york</option>
+            <option value="las vagas">las vagas</option>
+        </select><br>
+        
+        <textarea placeholder="explain yourself as a members:" id="cmnt" rows="4"></textarea><br>
+        <input type="file" value="file"><br>
+        <input type="checkbox" id="terms" value="agree">
+        <label>terms and conditions agree</label><br>
+
+
+        <button type="button" id="button">Register</button>
+        <button type ="button" id="preview">preview</button>
+        
+
+
+
+    </form><br>
+
+   
+
+
+    <header>
+        <iframe width="500" height="300" id="gmap_canvas"
+            src="https://maps.google.com/maps?q=chitkara%20ubiversity&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0" </iframe></iframe>
+
+            <!-- <iframe src="<img width="128" height="128" src="https://thumbnails.visme.co/04/aa/cc/43/fac2ab20e04c3eed19105fd805d79bb8.png"></iframe>" frameborder="0"</iframe> -->
+
+    </header>
+    <script>
+        document.getElementById('youtube').onclick = function(e){
+            alert("Youtube thumnails")
+            console.log(e)
+        }
+        document.getElementById('button').onclick =function(submit){
+            alert("form submitted successfully..!!!")
+            console.log(submit)
+        }
+        document.getElementById('name').onclick=function(){
+            alert("Enter your name ")
+        }
+    </script>
+
+</body>
+
+</html>

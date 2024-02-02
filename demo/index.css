@@ -1,0 +1,8 @@
+#vid{
+    height: 300px;
+    width: 300px;
+    margin-left: 500px;
+    border: 2px solid grey;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 500px 500px 500px 500px ;
+}   
